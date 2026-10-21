@@ -1,0 +1,23 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# generated data
+output/
+
+# editor / os
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,19 @@
+[project]
+name = "gridgen"
+version = "0.1.0"
+description = "Generate synthetic object-detection datasets by generating and splitting image grids."
+requires-python = ">=3.10"
+dependencies = ["openai>=1.40", "python-dotenv>=1.0", "Pillow>=10.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+gridgen = "gridgen.cli:main"
+
+[tool.setuptools]
+packages = ["gridgen"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

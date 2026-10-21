@@ -1,0 +1,5 @@
+# One subject per line. Optional "| N" sets how many grids to generate for it.
+# Lines starting with # are ignored.
+red apple, whole and sliced | 2
+glass bottle of water | 1
+house key on a keyring
